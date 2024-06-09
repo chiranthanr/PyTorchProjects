@@ -30,3 +30,16 @@ For images, the random tensor used is of shape (224,224,3) which stands for heig
 '''
 random_tensor_image = torch.rand(224,224,3)
 print(random_tensor_image)
+
+'''
+Tensors of Zeros and ones.
+'''
+zeros_tensor = torch.zeros(2,2)
+ones_tensor = torch.ones(2,2)
+print(zeros_tensor)
+print(ones_tensor)
+
+'''
+torch.arange(start=1, stop = 11)
+'''
+print(torch.arange(11))
